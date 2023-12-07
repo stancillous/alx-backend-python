@@ -8,4 +8,4 @@ of floats as argument and returns their sum as a float
 
 def sum_list(input_list: List[float]) -> float:
     """func to add all elements of a list"""
-    return sum(input_list)
+    return float(sum(input_list))
