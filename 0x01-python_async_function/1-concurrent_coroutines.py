@@ -2,7 +2,6 @@
 """
 write an async routine, that will spawn the wait_random func n times
 """
-import asyncio
 
 
 wait_random = __import__('0-basic_async_syntax').wait_random
