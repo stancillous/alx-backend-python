@@ -9,7 +9,7 @@ import asyncio
 import random
 
 
-async def wait_random(max_delay:int=10) -> float:
+async def wait_random(max_delay: int = 10) -> float:
     """async func that takes an arg, waits for  a random delay,
     and then returns it"""
     delay_time = random.uniform(0, max_delay)
